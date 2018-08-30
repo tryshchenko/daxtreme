@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+.splash {
+	height: 50vh;
+	display: flex;
+	background-image: url('./bar.jpg');
+	background-size: cover;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.splash h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 72px;
+	font-family: Helvetica, Arial, sans-serif;
+}
