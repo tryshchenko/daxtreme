@@ -1,19 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
 body {
 	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
+* {
+	font-family: 'Abel', sans-serif;
 }
 
 .splash {
-	height: 50vh;
+	height: 100vh;
 	display: flex;
 	background-image: url('./bar.jpg');
 	background-size: cover;
 	align-items: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .splash h1 {
+	padding: 0 20px 0 20px;
 	color: #fff;
 	text-align: center;
-	font-size: 72px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10vh;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.container {
+	max-width: 1024px;
+	width: 80%;
+}
+
+.card {
+	text-align: center;
+	color: white;
+}
+
+.card h2 {
+	font-size: 10vh;
+}
+
+.card .date {
+	color: yellow;
+}
+
+.address {
+	font-size: 5vh;
+}
+
+@media only screen and (max-width: 700px) {
+	.address {
+		font-size: 5vw;
+	}
+
+	.card h2 {
+		font-size: 10vw;
+	}
+
+	.splash h1 {
+		font-size: 10vw;
+	}
 }
