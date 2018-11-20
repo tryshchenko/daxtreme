@@ -13,7 +13,7 @@ body {
 .splash {
 	height: 100vh;
 	display: flex;
-	background-image: url('./bar.jpg');
+	background-image: url('./flying-beer.jpg');
 	background-size: cover;
 	align-items: center;
 	justify-content: space-around;
